@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { RWebShare } from "react-web-share";
 
 
-const Content = () => {
+const Home = () => {
   return (
     <div className='mainHead'>
     <h1 className='heading'>
@@ -69,4 +69,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default Home
