@@ -1,0 +1,245 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:white;
+     background-color:rgb(6,17,33);
+     height:100%
+
+}
+.nav{
+   display: flex; 
+   justify-content: space-around;
+   position: fixed;
+   top: 0;
+   background-color:rgb(6,17,33);
+   width: 100%;
+   height: 12vh;
+   z-index: 1;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+    color: grey;
+    margin-top: 4vh;
+    
+}
+.navbar li:hover{
+    color: white;
+}
+.navbar li{
+    margin-right: 20px;
+    
+}
+
+/* .navbar a:first-child{
+    color: grey;
+    text-decoration: none;
+} */
+.navbar a:hover{
+    color: white;
+}
+.icon{
+    border: 1px solid rgb(103, 103, 174);
+    padding: 6px;
+    border-radius: 5px;
+}
+.logo{
+    margin-top: 5vh;
+}
+.btn{
+    color: white;
+    border-radius: 20px;
+    background-color: #1199FA;
+    padding: 6px  12px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.home{
+    color: grey;
+    text-decoration: none;
+}
+.home:hover{
+    color: white;
+}
+
+
+/* HOME */
+.phone {
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 270px;
+    transform: rotateX('50deg') rotateY('50deg');
+    box-shadow: 5px 5px 200px rgb(62, 62, 161);
+    margin-top: 7vh;
+    border-radius: 10px;
+    
+
+  }
+  .container{
+    display: flex;
+}
+.container li{
+list-style-type: none;
+margin-top: 6vh;
+margin-left: 8vw;
+}
+.container .btn{
+    margin-left: 20vw;
+    margin-right: 5vw;
+    transition: 1s;
+}
+.container .btn:hover{
+    border: 2px solid #1199FA;
+    background-color: rgb(6,17,33);
+}
+.space a{
+  text-decoration: none;
+}
+.searching{
+  border: 2px solid #1199FA;
+    background-color: rgb(6,17,33);
+    border-radius: 30px;
+    padding: 4px 30px;
+    font-size: 20px;
+    margin-top: -1vh;
+    color: white;
+    transition: 1s;
+    margin-left: -10vw;
+}
+.searching:hover{
+  background-color: #1199FA;
+}
+  
+  .mainHead{
+    background-color:rgb(6,17,33) ;
+color: white;
+width: 100%;
+height: 90vh;
+margin-top: 10vh;
+
+}
+  .contents{
+    list-style-type:none;
+    margin-left: 15vw;
+    font-size: 20px;
+    margin-top: 8vh;
+  }
+  .contents span{
+    color: rgb(133, 190, 234);
+  }
+  .download{
+    border: 1px solid rgb(62, 62, 161);
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    padding:5px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    margin-left: 3vw;
+    justify-content: space-evenly;
+    
+  }
+  .app{
+    display: flex;
+    
+  }
+  .space{
+    margin-left: 23vw;
+    margin-top: 4vh;
+  }
+  .download .inLine{
+padding-bottom: 5px;
+  }
+ 
+                               /* FOOTER */
+  .footer-wrapper {
+    width: 100%;
+    padding: 10px 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 22, 47);
+  }
+  .heading{
+     margin-top: -5vh;
+     color: white;
+      font-size: 65px;
+      margin-left: 10vw;
+      padding-top: 10vh;
+    }
+  
+  
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    color: var(--white);
+    margin-top: 4vh;
+  }
+  .socialIcons {
+    font-size: 2rem;
+    color: var(--white);
+  }
+  
+  .socialIcons:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .footer-wrapper {
+      margin-top: 4rem;
+      padding: 3rem 3rem;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .socialIcons {
+      font-size: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .mainHead{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .phone{
+     display: none;
+    }
+    .space{
+      margin-left: 45vw;
+    }
+    #complete{
+      margin-left: 8vw;
+    }
+
+  }
+  @media only screen and (max-width: 1350px) {
+    .heading{
+      font-size:50px ;
+      margin-left: 1vw;
+    }
+    .contents{
+      font-size: 20px;
+      margin-left: 2vw;
+    }
+    .app{
+      margin-left: -15vw;
+    }
+    .container{
+      margin-left: -15vw;
+    }
+  }
+  
