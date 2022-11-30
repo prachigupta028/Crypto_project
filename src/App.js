@@ -10,6 +10,7 @@ function App() {
     <div style={{backgroundColor:"rgb(6,17,33)",color:"white"}}>
     <Router>
       <Header />
+      <Home/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coins" element={<Coins />} />
